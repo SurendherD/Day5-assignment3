@@ -1,0 +1,14 @@
+/* Properties which are inherited by the child element*/
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f0f0f0;
+  color: red;
+}
+
+/* Properties which are not inherited by the child element */
+body {
+  all: unset;
+  border: 1px solid black;
+  font-size: 25px;
+}
